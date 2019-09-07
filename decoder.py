@@ -28,7 +28,7 @@ while True:
 			
 	cv2.imshow("Barcode Scanner", frame)
 	key = cv2.waitKey(1) & 0xFF
-	print('QR code ddata is: '+qrcodeData)s
+	print('QR code ddata is: '+qrcodeData)
  
 	# if the `q` key was pressed, break from the loop
 	if key == ord("q"):
